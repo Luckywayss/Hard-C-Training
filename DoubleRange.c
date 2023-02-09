@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-#include <float.h> //½Ç¼öÀÚ·áÇü, ½Ç¼öÀÚ·áÇü ¾ç¼ö ÃÖ¼Ú°ª, ÃÖ´ñ°ªÀÌ Á¤ÀÇµÈ Çì´õ ÆÄÀÏ
+#include <float.h> //ì‹¤ìˆ˜ìžë£Œí˜•, ì‹¤ìˆ˜ìžë£Œí˜• ì–‘ìˆ˜ ìµœì†Ÿê°’, ìµœëŒ“ê°’ì´ ì •ì˜ëœ í—¤ë” íŒŒì¼
 
 int main(void)
 {
-	double dData = 123.456;//½Ç¼öÀÚ·áÇü À¯È¿ ÀÚ¸´¼ö ¼Ò¼öÁ¡ ÀÌÇÏ 15ÀÚ¸®, dData º¯¼ö¸í ÁöÁ¤, 123.456 »ó¼ö Á¤ÀÇ
+	double dData = 123.456;//ì‹¤ìˆ˜ìžë£Œí˜• ìœ íš¨ ìžë¦¿ìˆ˜ ì†Œìˆ˜ì  ì´í•˜ 15ìžë¦¬, dData ë³€ìˆ˜ëª… ì§€ì •, 123.456 ìƒìˆ˜ ì •ì˜
 
-	printf("%f\n", dData);//printf ÇÔ¼ö¿¡ °üÇÑ ºÎºÐÀº ÃßÈÄ °øºÎ ¿¹Á¤
-	printf("%E - %E\n", DBL_MIN, DBL_MAX);//ÃÖ¼Ò°ª, ÃÖ´ë°ª
+	printf("%f\n", dData);//printf í•¨ìˆ˜ì— ê´€í•œ ë¶€ë¶„ì€ ì¶”í›„ ê³µë¶€ ì˜ˆì •
+	printf("%E - %E\n", DBL_MIN, DBL_MAX);//ìµœì†Œê°’, ìµœëŒ€ê°’
+	
 	return 0;
 }
